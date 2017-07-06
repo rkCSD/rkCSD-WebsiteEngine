@@ -1,0 +1,40 @@
+;
+; ##################################################
+; #                                                #
+; # rkCSD-WebsiteEngine_3                          #
+; # Programmed for the new web decade i.o.b. rkCSD #
+; #                                                #
+; # Copyright (C) by Konrad Langenberg		       #
+; #                                                #
+; #                                email@rkcsd.com #
+; #                                                #
+; ##################################################
+;
+; File: config.ini
+; Version: 1.0.0
+; Last modified: 2016/08/08 15:51 GMT
+; Author: Konrad Langenberg
+;
+; ===Notes==========================================
+; There are currently no notes.
+; ==================================================
+;
+
+[mysql]
+host = "localhost"
+user = "CMS"
+password = "supersecretpassword"
+dbname = "CMS"
+
+[templating]
+templates = "content/tpl/" ; where your templates are stored
+basepath = ""
+title = 'WebsiteTitle' ; Not the website title but the smarty-variablename used to display it
+content = 'render_output' ; Smarty-Variable used to display contents passed via $page->setContent();
+template = 'main_template.tpl' ; The main template
+cache = "cache/"
+tinymce_css = 'content/css/editor.css' ; used to style tinymce-styles
+
+[system]
+timezone = 'Europe/Berlin' ; http://php.net/manual/en/timezones.php
+debug = false ; if set to true, will show errormessages

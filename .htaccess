@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^(apps|content|media|extensions)($|/) - [L]
+RewriteRule !favicon\.ico - [C]
+RewriteRule !Main\.php - [C]
+RewriteRule ^(.*)$ Main.php/?r=$1 [QSA,L]

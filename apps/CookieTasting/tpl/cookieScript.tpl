@@ -1,0 +1,1 @@
+<script src="{$basepath}apps/CookieTasting/CookieTasting.js"></script>
