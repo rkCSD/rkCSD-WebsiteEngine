@@ -5,6 +5,8 @@ Copyright © 2017 rkCSD Eu email@rkcsd.com. Visit our website: http://www.rkcsd.
 
 # Installing
 
+[Full Documentation (German)](http://wiki.reneknipschild.net/dev:web:rkcsd-websiteengine)
+
 You'll need a webserver with PHP >= 5.3 and a mysql database.
 
 1. Place a [release](https://github.com/rkCSD/rkCSD-WebsiteEngine/releases) inside a directory on an apache-webserver.
