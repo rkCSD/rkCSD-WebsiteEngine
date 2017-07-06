@@ -12,7 +12,8 @@ You'll need a webserver with PHP >= 5.3 and a mysql database.
 3. Create a new `config.ini` inside the `/config`-Directory and edit the necessary values. You'll be up and running if you only edit the ones under the `mysql` section
 
 # How-To
-[Full Documentation (German)](http://wiki.reneknipschild.net/dev:web:rkcsdengine)
+[Full Documentation (German)](http://wiki.reneknipschild.net/dev:web:rkcsdengine) | 
+[Documentation](http://wiki.reneknipschild.net/en:dev:web:rkcsdengine)
 
 ## Create an adminaccount
 
