@@ -31,7 +31,7 @@ templates = "content/tpl/" ; where your templates are stored
 basepath = ""
 title = 'WebsiteTitle' ; Not the website title but the smarty-variablename used to display it
 content = 'render_output' ; Smarty-Variable used to display contents passed via $page->setContent();
-template = 'main_template.tpl' ; The main template
+template = 'main_template.tpl' ; The main template, relative to the templates-directory specified in 'templates'
 cache = "cache/"
 tinymce_css = 'content/css/editor.css' ; used to style tinymce-styles
 
